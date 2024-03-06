@@ -1,0 +1,65 @@
+body{
+    background: rgb(124, 124, 185);
+}
+#contenedor{
+    position: relative;
+}
+#arriba1{
+    position: absolute;
+    top: 200px;
+    left: 525px;
+    border: none;
+    opacity: 0.7;
+}
+#arriba2{
+    position: absolute;
+    top: 225px;
+    left: 750px;
+    border: none;
+    opacity: 0.9;
+}
+#arriba3{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    border: none;
+    opacity: 0.8;
+}
+#arriba4{
+    position: absolute;
+    top: 0px;
+    left: 850px;
+    border: none;
+    opacity: 0.7;
+}
+canvas{
+    margin: 0 auto;
+}
+h3,p{
+    margin: 10px;
+    background: rgb(255, 217, 67);
+    color: #793232;
+    font-family: sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+p#a0{
+    color: rgb(255 0 0/0);
+
+}
+p#a25{
+    color: rgb(255 0 0/25%);
+    
+}
+p#a50{
+    color: rgb(255 0 0/50%);
+    
+}
+p#a75{
+    color: rgb(255 0 0/75%);
+    
+}
+p#a100{
+    color: rgb(255 0 0/100%);
+    
+}
